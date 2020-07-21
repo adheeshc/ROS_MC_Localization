@@ -36,7 +36,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 ## Project Description  
 Directory Structure  
-
+```
 Turtlebot_EKF                           # Turtlebot_EKF src directory contents
     ├── main                            # Main package that launches all other packages together
     ├── odom_to_trajectory              # [Odometry to Trajectory package](https://github.com/udacity/odom_to_trajectory)
@@ -45,7 +45,7 @@ Turtlebot_EKF                           # Turtlebot_EKF src directory contents
     ├── turtlebot_simulator             # [Turtlebot gazebo package](http://wiki.ros.org/turtlebot_gazebo)
     ├── EKFLab.rviz                     # RViz default settings file
     └── RvizLaunch.launch               # Rviz Launch file
-
+```
 
 ## Run the project  
 
