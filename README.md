@@ -1,9 +1,11 @@
 # Turtlebot_EKF
 
-![Gif of the world](Images/world.gif)
+<p align="center">
+  <img src="/Images/world.gif" alt="obstacle">
+</p>
   
 ## Overview  
-In this lab, I will be applying an EKF ROS package to localize the Turtlebot robot inside a Gazebo environment. In the end, I will be able to drive the robot around in simulation and observe the `Odom` and `EKF` trajectories.   
+In this lab, I will be applying an EKF ROS package to localize the Turtlebot robot inside a Gazebo environment. In the end, I will be able to drive the robot around in simulation and observe and compare the unfiltered `Odom` and filtered `EKF` trajectories.
 
 ## Prerequisites/Dependencies  
 * Gazebo >= 7.0  
@@ -34,16 +36,16 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 ## Project Description  
 Directory Structure  
-```
+
 Turtlebot_EKF                           # Turtlebot_EKF src directory contents
     ├── main                            # Main package that launches all other packages together
-    ├── odom_to_trajectory              # [Odometry to Trajectory package] (https://github.com/udacity/odom_to_trajectory)
-    ├── robot_pose_ekf                  # [Robot Pose EKF package] (http://wiki.ros.org/robot_pose_ekf)
+    ├── odom_to_trajectory              # [Odometry to Trajectory package](https://github.com/udacity/odom_to_trajectory)
+    ├── robot_pose_ekf                  # [Robot Pose EKF package](http://wiki.ros.org/robot_pose_ekf)
     ├── turtlebot                       # [Turtlebot package](http://wiki.ros.org/turtlebot)
     ├── turtlebot_simulator             # [Turtlebot gazebo package](http://wiki.ros.org/turtlebot_gazebo)
     ├── EKFLab.rviz                     # RViz default settings file
     └── RvizLaunch.launch               # Rviz Launch file
-```
+
 
 ## Run the project  
 
