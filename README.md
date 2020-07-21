@@ -37,7 +37,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 ## Project Description  
 Directory Structure  
 ```
-Turtlebot_EKF                           # Turtlebot_EKF src directory contents
+Turtlebot_EKF                         
     ├── main                            # Main package that launches all other packages together
     ├── odom_to_trajectory              # [Odometry to Trajectory package](https://github.com/udacity/odom_to_trajectory)
     ├── robot_pose_ekf                  # [Robot Pose EKF package](http://wiki.ros.org/robot_pose_ekf)
